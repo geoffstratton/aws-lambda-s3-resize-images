@@ -10,7 +10,7 @@ Prerequisites
 ---------------
 * The [boto3 SDK](https://aws.amazon.com/sdk-for-python/).
 * The [Pillow](https://pypi.org/project/Pillow/) image library.
-* Ensure that the IAM Role attached to the Lambda function has a policy with s3. If you want to create a custom policy, include:
+* Ensure that the IAM Role attached to the Lambda function has a policy for s3 access. If you want to create a custom policy, include:
    + s3.GetObject
    + s3.PutObject
 * Add a trigger to your Lambda function for S3 uploads in your bucket.
