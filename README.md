@@ -13,7 +13,7 @@ Prerequisites
 * Ensure that the IAM Role attached to the Lambda function has a policy for S3 access. If you want to create a custom policy, include:
    + s3.GetObject
    + s3.PutObject
-* Add a trigger to your Lambda function for S3 uploads in your bucket.
+* Ensure that uploads to your S3 bucket have a trigger for your Lambda function.
 * Remember to set your DEST_BUCKET environment variable to where you want your thumbnail to go.
 
 ### To set up boto3 for development (Amazon Linux and similar):
